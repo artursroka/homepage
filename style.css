@@ -1,0 +1,41 @@
+body {
+    background: #000000;
+}
+section{
+    background: #222222;
+}
+p {
+    color: #888888;
+}
+h3 {
+    color: yellow;
+}
+footer {
+    background: yellow;
+}
+main{
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+}
+article{
+    margin: 20px;
+}
+.photoAll{
+    width: 400px;
+    height: auto;
+}
+.main-heading{
+    color: yellow;
+    text-shadow: 2px 2px 0 #444444;
+    text-align: center;
+}
+.secondary-heading{
+    color: #000000;
+    background: yellow;
+    text-align: center;
+}
+#kimJestem{
+    margin: 20px;
+}
