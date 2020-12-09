@@ -8,10 +8,10 @@ p {
     color: #888888;
 }
 h3 {
-    color: blue;
+    color: yellow;
 }
 footer {
-    background: blue;
+    background: yellow;
 }
 main{
     width: 900px;
@@ -27,13 +27,13 @@ article{
     height: auto;
 }
 .main-heading{
-    color: blue;
+    color: yellow;
     text-shadow: 2px 2px 0 #444444;
     text-align: center;
 }
 .secondary-heading{
     color: #000000;
-    background: blue;
+    background: yellow;
     text-align: center;
 }
 #kimJestem{
