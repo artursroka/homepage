@@ -8,3 +8,4 @@ const age = 34;
 const heading = document.querySelector('.main-heading--js');
 
 heading.innerHTML = "Artur Sroka - Strona domowa w ramach kursu <br>CO TEN FRONTEND";
+
