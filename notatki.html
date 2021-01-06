@@ -7,35 +7,35 @@
     <link href="style.css" rel='stylesheet' type='text/css'>
 </head>
 <body>
-    <header>
-        <nav class="nav-heading">
-            <a href="index.html">Strona Główna</a>
-            <a href="notatki.html">Notatki</a>
+    <header class="nav">
+        <nav class="nav__heading">
+            <a class="nav__link" href="index.html">Strona Główna</a>
+            <a class="nav__link" href="notatki.html">Notatki</a>
         </nav>
     </header>
-    <main>
+    <main class="main">
         
-        <header id="top" class="headerAll">
-            <h1 class="main-heading">Notatki z WTF: co ten frontend</h1>
+        <header id="top" class="main__header">
+            <h1 class="main__heading">Notatki z WTF: co ten frontend</h1>
         </header>
        
-       <section id='notatki'>
-        <img src="img/artursroka2.jpg" alt="Moje zdjecie bez maski" id="photo1" class="photoAll"/>
-            <h2 class="secondary-heading">Notatki z WTF: co ten frontend</h2>
+       <section class="notes" id='notatki'>
+        <img src="img/artursroka2.jpg" alt="Moje zdjecie bez maski" id="photo1" class="notes_photo"/>
+            <h2 class="notes__heading">Notatki z WTF: co ten frontend</h2>
 
             <article>
-                <h3>Tydzień 2</h3>
-                <p class='article'>Aby zacząć utworzyć dokument html, należy najpierw wpisą !, wybrać pierwszą podpowiedz i zatwierdzić enterm. Natomiast, aby dobrze sformatowaać juz istniejący kod, trzeba uzyć skrótu ctr + shift + p. </p>
-                <p class='article'>Main, header, section i article to podstawowe podziały strony internetowej.</p>
+                <h3 class="notes__article__title">Tydzień 2</h3>
+                <p class='notes__article__tekst'>Aby zacząć utworzyć dokument html, należy najpierw wpisą !, wybrać pierwszą podpowiedz i zatwierdzić enterm. Natomiast, aby dobrze sformatowaać juz istniejący kod, trzeba uzyć skrótu ctr + shift + p. </p>
+                <p class='notes__article__tekst'>Main, header, section i article to podstawowe podziały strony internetowej.</p>
             </article>
            <article>
-                <h3>Tydzień 3</h3>
-                <p class='article'>Do stworzenie tzw. Menu w hederze przed main wpisujemy nav i w nim plinki do poszczególnych podstron.<br>
+                <h3 class="notes__article__title">Tydzień 3</h3>
+                <p class='notes__article__tekst'>Do stworzenie tzw. Menu w hederze przed main wpisujemy nav i w nim plinki do poszczególnych podstron.<br>
                 </p>
             </article>
             <article>
-                <h3>Tydzień 4 życie w pudełku</h3>
-                <p class='article'>
+                <h3 class="notes__article__title">Tydzień 4 życie w pudełku</h3>
+                <p class='notes__article__tekst'>
                     display: block <br>
                     Sposób na wyświetlanie elementów jeden pod drugim. Ta własność powoduję, że element zajmuje całą szerokość rodzica.<br><br>
                     display: inline <br>
@@ -52,8 +52,8 @@
                 </p>
             </article>
             <article>
-                <h3>Tydzień 4 GIT</h3>
-                <p class='article'>
+                <h3 class="notes__article__title">Tydzień 4 GIT</h3>
+                <p class='notes__article__tekst'>
                     display: block <br>
                     git config --global user.name "Jan Nowak"<br>
                     git config --global user.email jannowak@example.com<br>
@@ -70,14 +70,14 @@
                     git push<br>
                     wypuszczamy pliki do repozzytorium w githubie<br><br>
                 </p>
-                <h3>Notatka dodana w JS</h3>
-                <p class='article article--addJS'></p>
+                <h3 class="notes__article__title">Notatka dodana w JS</h3>
+                <p class='notes__article__tekst notes__article__tekst--addJS'></p>
             </article>
         </section>
     </main>
 
-    <footer>
-        Strona domowa Artur Sroka <a href="#top">Wróć na górę</a>
+    <footer class="footer">
+        Strona domowa Artur Sroka <a class="footer__link" href="#top">Wróć na górę</a>
     </footer>
     <script src="mainNotatki.js"></script>
 </body>

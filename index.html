@@ -7,25 +7,25 @@
     <link href="style.css" rel='stylesheet' type='text/css'>
 </head>
 <body>
-    <header>
-        <nav class="nav-heading">
-            <a href="index.html">Strona Główna</a>
-            <a href="notatki.html">Notatki</a>
+    <header class="nav">
+        <nav class="nav__heading">
+            <a class="nav__link" href="index.html">Strona Główna</a>
+            <a class="nav__link" href="notatki.html">Notatki</a>
         </nav>
     </header>
-    <main>
-        <header>
-            <h1 id="top" class="main-heading main-heading--js">Artur Sroka - Strona domowa w ramach kursu WTF</h1>
+    <main class="main">
+        <header class="main__header">
+            <h1 id="top" class="main__heading main__heading--js">Artur Sroka - Strona domowa w ramach kursu WTF</h1>
         </header>
-        <section id="kimJestem">
-            <h2 class="secondary-heading">Kim jestem?</h2>
-            <img src="img/artursroka1.jpg" alt="Moje zdjecie w masce" id="photo1" class="photoAll"/>
-            <p class='article'>Hej! Jestem grafikiem komputereowym, przez 3 ostatnie lata zajmuję sie programowaniem banerów internetowych. W tym czasie zrealizowałem dużo różnych kampani dla wielu firm. Wiadomo, początki bywają trudne wiec popełnieałem wiele błędów, na których się uczę. I tak staram sie pracować, nie boję się przyznać do błędu.<a href="notatki.html">Przejdż do notatek</a></p>
+        <section class="about" id="kimJestem">
+            <h2 class="about__heading">Kim jestem?</h2>
+            <img src="img/artursroka1.jpg" alt="Moje zdjecie w masce" id="photo1" class="about__photo"/>
+            <p class='about__description'>Hej! Jestem grafikiem komputereowym, przez 3 ostatnie lata zajmuję sie programowaniem banerów internetowych. W tym czasie zrealizowałem dużo różnych kampani dla wielu firm. Wiadomo, początki bywają trudne wiec popełnieałem wiele błędów, na których się uczę. I tak staram sie pracować, nie boję się przyznać do błędu.<a class='about__link' href="notatki.html">Przejdż do notatek</a></p>
        </section>
     </main>
 
-    <footer>
-        Strona domowa Artur Sroka <a href="#top">Wróć na górę</a>
+    <footer class="footer">
+        Strona domowa Artur Sroka <a class="footer__link" href="#top">Wróć na górę</a>
     </footer>
     <script src="main.js"></script>
 </body>

@@ -1,43 +1,87 @@
 body {
-    background: #000000;
+    background: black;
 }
 section{
     background: #222222;
 }
-.article {
-    color: #888888;
-    padding:10px;
-    margin-bottom: 10px;
-}
-h3 {
-    color: yellow;
-    padding: 10px;
-}
-footer {
+.nav{
     background: yellow;
 }
-main{
+.nav__heading{
     width: 100wv;
     max-width: 900px;
     margin-left: auto;
     margin-right: auto;
     padding: 20px;
 }
-.photoAll{
-    width: 100%;
-    max-width: 450px;
-    height: auto;
+.nav__link{
+    color:black;
 }
-.main-heading{
+.main{
+    width: 100wv;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+}
+.main__header{
     color: yellow;
     text-shadow: 2px 2px 0 #444444;
     text-align: center;
 }
-.secondary-heading{
+.main__heading{
+
+}
+.about{
+
+}
+.about__heading{
+    color: yellow;
+    padding: 10px;
+}
+.about__photo{
+    width: 100%;
+    max-width: 450px;
+    height: auto;
+}
+.about__description{
+    color: #888888;
+    padding:10px;
+    margin-bottom: 10px;
+}
+.about__link{
+    color: #888888;
+    padding:10px;
+    margin-bottom: 10px;
+}
+.article {
+    color: pink;
+    padding:10px;
+    margin-bottom: 10px;
+}
+.footer {
+    background: yellow;
+    text-align: center;
+}
+.notes{
+
+}
+.notes_photo{
+    width: 100%;
+    max-width: 450px;
+    height: auto;
+}
+.notes__heading{
+    color: yellow;
+    padding: 10px;
+}
+.notes__article__title{
     color: #000000;
     background: yellow;
     text-align: center;
 }
-#kimJestem{
-    margin: 20px;
+.notes__article__tekst{
+    color: #888888;
+    padding:10px;
+    margin-bottom: 10px;
 }
